@@ -5,3 +5,5 @@ def weirdNotWeird(n):
         return 'Not weird'
     elif n % 2 == 0 and 6 <= n <= 20:
         return 'Weird'
+    else:
+        return 'Not weird'
